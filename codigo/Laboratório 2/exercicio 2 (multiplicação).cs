@@ -1,27 +1,27 @@
 ﻿// See https://aka.ms/new-console-template for more information
-   static void Atividade2()
+   static void Exercicio 2 do lab 2()
     {
-        Console.WriteLine("\nEscreva um método recursivo que realize a multiplicação de doisnúmeros inteiros, A e B, recebidos por parâmetro.");
 
-        int valor1, valor2, result;
 
-        Console.WriteLine("\nInsira o primeiro valor desejado:");
-        valor1 = int.Parse(Console.ReadLine());
-        Console.WriteLine("\nInsira o segundo valor desejado:");
-        valor2 = int.Parse(Console.ReadLine());
+        int N1, N2, result;
 
-        result = Multiplicacao(valor1,valor2);
-        Console.WriteLine("A multiplicação de {0} X {1} é: {2}", valor1, valor2, result);
+        Console.WriteLine("Digite um numero inteiro:");
+        N1 = int.Parse(Console.ReadLine());
+        Console.WriteLine("Digite o segundo valor inteiro:");
+        N2 = int.Parse(Console.ReadLine());
+
+        result = Multiplicacao(N1, N2);
+        Console.WriteLine("A multiplicação de {0} X {1} é: {2}", N1, N2, result);
     }
 
     static int Multiplicacao(int valor1,int valor2)
     {
         if (valor2 == 0)
         {
-            return valor2;
+            return N2;
         }
         else
         {
-            return valor1 + Multiplicacao(valor1, valor2 - 1);
+            return N1 + Multiplicacao(N1, N2 - 1);
         }
     }
