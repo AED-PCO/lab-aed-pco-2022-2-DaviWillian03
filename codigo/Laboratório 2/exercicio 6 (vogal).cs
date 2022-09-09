@@ -1,10 +1,8 @@
-﻿// See https://aka.ms/new-console-template for more information
-static void Atividade6()
+// See https://aka.ms/new-console-template for more information
+static void exercicio6 vogal()
     {
-        Console.WriteLine("\nRetirar as Vogais de uma Frase ou palavra mostrando somente suas consoantes");
-
         string frase;
-        Console.WriteLine("\nDigite a frase desejada: ");
+        Console.WriteLine("Insira uma frase: ");
         RetiraVogal(Console.ReadLine());
     }
 
