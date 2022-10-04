@@ -1,0 +1,42 @@
+Public Function LocalizaMin() As Integer
+        Dim current As Node = root
+        While (Not (current.Left Is Nothing))
+            current = current.Left
+        End While
+        Return current.iData
+    End Function
+
+    Public Function LocalizaMax() As Integer
+        Dim current As Node = root
+        While (Not (current.Right Is Nothing))
+            current = current.Right
+        End While
+        Return current.iData
+    End Function
+
+Testando os novos métodos podemos alterar o código do módulo Module1 conforme abaixo:
+
+Module Module1
+    Sub Main()
+        Dim numeros As New BinarySearchTree()
+        numeros.Inserir(23)
+        numeros.Inserir(45)
+        numeros.Inserir(16)
+        numeros.Inserir(37)
+        numeros.Inserir(3)
+        numeros.Inserir(99)
+        numeros.Inserir(22)
+        Console.WriteLine("")
+        Console.WriteLine("Atravessando a árvore usando naOrdem : ")
+        numeros.naOrdem(numeros.root)
+        Console.WriteLine("")
+        Console.WriteLine("Atravessando a árvore usando preOrdem : ")
+        numeros.preOrdem(numeros.root)
+        Console.WriteLine("")
+        Console.WriteLine("Atravessando a árvore usando posOrdem : ")
+        numeros.posOrdem(numeros.root)
+        Console.WriteLine(" ")
+        Console.WriteLine("Elemento com valor Mínimo " & numeros.LocalizaMin())
+        Console.WriteLine(" ")
+        Console.WriteLine("Elemento com valor Máximo " & numeros.LocalizaMax())
+        Console.ReadKey()
