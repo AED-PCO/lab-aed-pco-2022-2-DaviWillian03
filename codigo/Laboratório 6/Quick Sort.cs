@@ -1,6 +1,7 @@
 ﻿using System;
-namespace QuickSortDemo {
+namespace QuickSortDwlab6 {
    class Example {
+      
       static public int Partition(int[] arr, int left, int right) {
          int pivot;
          pivot = arr[left];
