@@ -6,10 +6,7 @@ namespace lavb6dw
     {
         static void Main(string[] args)
         {
-using System;
-namespace BubbleSort {
-   class MySort {
-      static void Main(string[] args) {
+
          int[] arr = { 78, 55, 45, 98, 13 };
          int temp;
          for (int j = 0; j <= arr.Length - 2; j++) {
