@@ -1,0 +1,33 @@
+Exercício 1 -
+
+Escreva um método recursivo que retorne o fatorial de um número.
+
+Resolução: O usuário entra com o valor N e foi criada uma função FatrialRecursivo que faz o fatorial de N o decrementando até que N seja diferente de 0
+
+Exercício 2 -
+
+Uma multiplicação pode ser vista como uma sequência de somas. Escreva um método recursivo que realize a multiplicação de dois números inteiros, A e B, recebidos por parâmetro.
+
+Resolução: O usuário informa A e B e uma função MultiplicaoRecursivo que chama
+
+Exercício 3 -
+
+Escreva um método recursivo que realize a potenciação entre dois números inteiros, A e B, recebidos por parâmetro. Seu método deve, portanto, retornar o resultado de AB
+
+Resolução: Na main é passado os valodes de A e B e uma função ElevadoRecursivo Multiplica A com ElevadoRecursivo - B até b ficar igual a 1
+
+Exercício 4 -
+
+Escreva um método recursivo que receba uma frase e uma letra como parâmetros. Este método deve retornar a quantidade de ocorrências desta letra nesta frase.
+
+Resolução: Foi passado uma Frase e o usuário digita a letra e foi passado FraseRecursiva que conta quantas letras são iguais e acumula na variável letra e retorna na tela.
+
+Exercício 5 -
+
+Escreva um método recursivo que calcule a soma dos elementos de valor par de um vetor de números inteiros positivos.
+
+Resolução: Foi criado um vetor V de tamanho 5 Random, e outro vetor v criado com o tamanho também 5 e passado para ele somente os valores pares do vetor o qual fiz uma função recursiva para somar todo o vetor e o imprimi na tela.
+
+Exercício 6 -
+
+Escreva um método recursivo que receba uma frase e retorne a mesma frase, sem nenhuma vogal.
